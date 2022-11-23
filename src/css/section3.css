@@ -1,0 +1,103 @@
+
+.cadre{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.cadre1{
+    border: solid 4px #00C0FF;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 12px 8px #dddbdb;
+}
+.cadre1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px #00C0FF;
+}
+
+.zone{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.zone h1{
+    height: 100px;
+    background-color:#00C0FF;
+    color: white;
+    margin: 0px;
+}
+.cadre3{
+    background-color: rgb(245, 245, 245);
+    height: 500px;
+}
+.cadre3 h4{
+    text-align: justify;
+    margin: 0px;
+    padding: 50px 15px 15px 15px;
+}
+.zone button{
+    /* width: 520px;
+    height: 50px; */
+    font-size: 25px;
+    color: white;
+    border-radius: 7px;
+    background-color: #00C0FF ;
+    border: none;
+}
+/* .zone h4{
+    text-align: justify;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+    padding: 50px 15px 280px 15px;
+}
+.zone button{
+    width: 520px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    border-radius: 7px;
+    background-color: #00C0FF;
+    border: none;
+} */
+
+.data{
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.formd input{
+    box-shadow: 0px 0px 12px 8px #dddbdb;
+    border-radius: 12px;
+}
+.formd textarea{
+    box-shadow: 0px 0px 12px 8px #dddbdb;
+    height: 300px;
+}
+
+.liens{
+    padding-left: 80px;
+}
+.liens hr{
+    text-align: center;
+    background-color: white;
+    height: 7px;
+    width: 230px;
+}
+.liens a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.liens input{
+    box-shadow: 0px 0px 12px 8px rgba(14, 134, 185, 1);
+    border-radius: 12px;
+    margin-top: 15px;
+}
