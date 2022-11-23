@@ -1,5 +1,6 @@
 import '../css/section3.css';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 function Section3() {
 
     return(
@@ -14,11 +15,13 @@ function Section3() {
                                 <img src="./images/me.jpg" alt=""/>
                                 <h3>Lewis</h3>
                                 <h5>Son poste ici</h5>
+                                <FontAwesomeIcon icon={faLink} style={{color:'#00C0FF',fontSize:'25px'}} />
                             </div>
                             <div className="cadre1">
                                 <img src="./images/me.jpg" alt=""/>
                                 <h3>Michele</h3>
                                 <h5>Son poste ici</h5>
+                                <FontAwesomeIcon icon={faLink} style={{color:'#00C0FF',fontSize:'25px'}} />
                             </div>
                         </div>
                         <div className="cadre">
@@ -26,11 +29,13 @@ function Section3() {
                                 <img src="./images/me.jpg" alt=""/>
                                 <h3>Lewis</h3>
                                 <h5>Son poste ici</h5>
+                                <FontAwesomeIcon icon={faLink} style={{color:'#00C0FF',fontSize:'25px'}} />
                             </div>
                             <div className="cadre1">
                                 <img src="./images/me.jpg" alt=""/>
                                 <h3>Michele</h3>
                                 <h5>Son poste ici</h5>
+                                <FontAwesomeIcon icon={faLink} style={{color:'#00C0FF',fontSize:'25px'}} />
                             </div>
                         </div>
                     </div>
